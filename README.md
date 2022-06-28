@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-
 Portfolio Mobile Skeleton
+
+This project has a navbar and a headline text with some links, it has only the first page of my portfolio.
 
 
 ## Built With
@@ -11,10 +11,6 @@ Portfolio Mobile Skeleton
 ## Technologies.
 Visual Studio Code.
 nodejs and npm.
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
 
 
 ## Getting Started

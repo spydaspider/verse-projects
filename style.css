@@ -30,7 +30,7 @@ body {
   border-right: 1px solid rgb(221 217 217);
 }
 
-.nav-container .logo-text {
+.nav-container .logo-text a {
   width: 76px;
   height: 20px;
   font-style: normal;
@@ -44,6 +44,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
+  text-decoration: none;
 }
 
 .flex {
