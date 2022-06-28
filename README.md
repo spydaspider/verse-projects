@@ -2,8 +2,7 @@
 
 # Project Name
 
-Hello Microverse Project.
-This project is has a header text(Hello Microverse). It tells the viewer of the site about me and the services I can provide.
+Portfolio Mobile Skeleton
 
 
 ## Built With
