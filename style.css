@@ -12,11 +12,18 @@ body {
 }
 
 .contain {
-  min-height: 750px;
+  min-height: 720px;
   text-align: center;
   width: 375px;
-  border: 1px solid rgb(221 217 217);
   border-radius: 15px;
+}
+#works {
+  background: rgb(243, 238, 238);
+  display: grid;
+  margin-top: 5em;
+  grid-template-columns: 1fr;
+  grid-gap: 7em;
+  width: 378px;
 }
 
 .flex-container {
@@ -28,11 +35,12 @@ body {
 
 .base-button a {
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 550;
   color: #396df2;
   border: 1px solid #396df2;
-  border-radius: 15px;
+  border-radius: 10px;
   padding: 0.7em;
+  letter-spacing: 0.03em;
 }
 
 .base-links ul {
@@ -57,6 +65,7 @@ body {
   text-decoration: none;
   background: #ebebff;
   border-radius: 8px;
+  color: #6070ff;
 }
 
 .base-links .base-link-text1 {
@@ -157,7 +166,7 @@ body {
   padding: 16px;
   gap: 12px;
   width: 327px;
-  height: 700px;
+  min-height: 630px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -186,8 +195,8 @@ body {
   width: 82px;
   height: 36px;
   font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
+  font-weight: 900;
+  font-size: 35px;
   line-height: 44px;
   color: #172b4d;
 }
@@ -209,7 +218,7 @@ body {
   padding: 16px;
   gap: 12px;
   width: 327px;
-  height: 700px;
+  min-height: 700px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -217,11 +226,13 @@ body {
   margin-top: 1.2em;
 }
 
-#section-2 .newh2 {
-  width: 170px;
+#section-2 h1 {
+  width: 200px;
   text-align: left;
-  font-size: 22px;
+  font-size: 35px;
   margin-left: 4px;
+  font-weight: 1200;
+  font-style: normal;
 }
 
 /* End of section-2 styling */
@@ -243,7 +254,7 @@ body {
   padding: 16px;
   gap: 12px;
   width: 327px;
-  height: 700px;
+  min-height: 630px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -257,8 +268,8 @@ body {
   width: 200px;
   height: 36px;
   font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
+  font-weight: 900;
+  font-size: 35px;
   line-height: 44px;
   color: #172b4d;
 }
@@ -282,28 +293,31 @@ body {
   padding: 16px;
   gap: 12px;
   width: 327px;
-  height: 700px;
-  background: #fff;
+  min-height: 700px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-left: 1.5em;
   margin-top: 1.2em;
+  background: #fff;
 }
 
-#section-4 .newh4 {
-  width: 170px;
+#section-4 h1 {
+  width: 200px;
   text-align: left;
-  font-size: 22px;
+  font-size: 35px;
   margin-left: 4px;
+  font-weight: 900;
 }
 
 /* End of section 4 styling */
-
+#section-5 {
+  background: #fff;
+}
 #section-5 .s5 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 2em;
+  gap: 1em;
   min-height: 1300px;
   text-align: center;
   width: 375px;
@@ -428,7 +442,7 @@ main p {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #396df2;
-  margin-left: 1.5em;
+  margin-left: 1.1em;
   text-decoration: none;
 }
 
@@ -445,32 +459,43 @@ main p {
 }
 
 /* End of section-5 styling */
-
-.head-text {
+#section-5 .about-text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 350px;
+  padding-top: 2em;
+  min-height: 200px;
+  color: #172b4d;
+  font-weight: 900;
+  font-size: 35px;
+  margin-top: 1em;
+}
+#section-5 .head-text h1 {
   display: flex;
   align-self: flex-start;
-  width: 200px;
-  padding-top: 2em;
+  width: 150px;
   color: #172b4d;
-  font-weight: 700;
-  font-size: 28px;
+  font-weight: 900;
+  font-size: 35px;
+  
 }
 
-.paragraph-5 {
-  width: 327px;
-  height: 144px;
+.about-text p{
+  box-sizing: border-box;
+  width: 100%;
+  height: 170px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
   color: #344563;
   text-align: left;
-  padding-left: 1.7em;
+  padding-left: 1em;
   padding-top: 0;
 }
 
-.lc {
-  padding-top: 2em;
+.s5 .lc{
   width: 117px;
   height: 24px;
   font-style: normal;
@@ -478,7 +503,16 @@ main p {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  padding-left: 2em;
+  padding-left: 1.2em;
+  margin-top: 0;
+  padding-top: 0;
+}
+.s5 .base-icon-5 ul{
+  display: flex;
+  align-items: center;
+  gap:1.5em;
+  list-style: none;
+  padding-left: 25px;
 }
 
 .langv {
