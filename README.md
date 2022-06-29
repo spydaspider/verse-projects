@@ -1,8 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Portfolio Mobile Skeleton
+Portfolio Mobile.(Middle Section)
 
-This project has a navbar and a headline text with some links, it has only the first page of my portfolio.
+This project has a headline and some cards for my porfolio website.
+You can navigate through the pages to get more information about me.
 
 
 ## Built With
