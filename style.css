@@ -263,6 +263,39 @@ main p {
   color: #172b4d;
 }
 
+/*End of section 3 styling */
+
+#section-4 .image-container4 {
+  width: 340px;
+  height: 220px;
+  background: url("images/section-5.png");
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 0;
+  margin-top: 0.5em;
+}
+#section-4 .s4-container {
+
+  box-sizing: border-box;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  height: 700px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  margin-left: 1.5em;
+  margin-top: 1.2em;
+}
+#section-4 .newh4 {
+  width: 170px;
+  text-align: left;
+  font-size: 22px;
+  margin-left: 4px;
+}
+
 
 
 
