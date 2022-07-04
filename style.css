@@ -433,22 +433,25 @@ main p {
   list-style: none;
   padding-left: 1.7em;
 }
-.resume{
+
+.resume {
   margin-left: 1.1em;
 }
-.resume span{
+
+.resume span {
   font-size: 17px;
-  color: #5E6C84;
+  color: #5e6c84;
   font-weight: 500;
 }
+
 .resume button:disabled,
-button[disabled]{
-  border: 1px solid #999999;
+button[disabled] {
+  border: 1px solid #999;
   background-color: #e5e5e5;
-  color: #666666;
+  color: #666;
   border-radius: 6px;
   padding: 13px;
-  }
+}
 
 #section-5 .resume a {
   width: 138px;
