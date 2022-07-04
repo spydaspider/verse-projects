@@ -21,7 +21,9 @@ body {
 #works {
   background: rgb(243 238 238);
   display: grid;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7em;
   grid-template-columns: 1fr;
   grid-gap: 7em;
   width: 378px;
@@ -334,6 +336,72 @@ body {
 .tech ul {
   list-style: none;
   width: 10%;
+}
+#section-a-dt {
+  box-sizing: border-box;
+  background-image: url("images/header-shapes\ mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+}
+
+.section-a-content-dt {
+
+}
+.middle-text-dt {
+  padding-top: 6em;
+  width: 100%;
+}
+
+.middle-text-dt h1 {
+  width: 100%;
+  font-weight: 700;
+  font-size: 48px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  line-height: 52px;
+  color: #172b4d;
+  text-align: left;
+}
+
+.middle-text-dt p {
+  width: 100%;
+  height: 146px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.base-text-dt {
+  width: 179px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #7f8cff;
+  padding-left: 0.3em;
+  margin-top: 0;
+}
+
+.media-icons-dt {
+  width: 200px;
+  padding-left: 0;
+}
+
+.media-icons-dt ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 1.7em;
+}
+
+#section-a-dt{
+  display: none;
 }
 
 #section-a {
@@ -764,6 +832,34 @@ input[type="submit"] {
     width: 290px;
   }
   */
+  #section-a{
+    display: none;
+  }
+  #section-a-dt {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-image: url("images/Header\ bg.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 10px auto;
+    background-position: center;
+    padding: 10px;
+    width: 100%;
+    height: 800px;
+  }
+  #section-a-dt .section-a-content-dt{
+         grid-column-start: 2;
+         grid-column-end: 6;
+         height: 300px;
+         margin-top: 10%;
+  }
+  #section-a-dt .base-text-dt{
+     text-align: left;
+     margin-top: 0;
+  }
+  #section-a-dt .media-icons-dt ul{
+     padding-left: 0;
+  }
 
   .nav-container-wide .right-side ul li a {
     text-decoration: none;
