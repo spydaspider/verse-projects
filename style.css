@@ -660,6 +660,18 @@ input[type="submit"] {
   margin-right: 16em;
 }
 
+input[type="submit"]:hover {
+  background: #6070ff;
+  color: #fff;
+  border: none;
+}
+
+input[type="submit"]:active {
+  background: #2230d1;
+  color: #fff;
+  border: none;
+}
+
 #section-7 img {
   margin-bottom: 0;
   width: 170px;
