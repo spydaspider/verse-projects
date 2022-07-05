@@ -14,18 +14,24 @@ body {
 .contain {
   min-height: 720px;
   text-align: center;
-  width: 375px;
+  min-width: 375px;
   border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #works {
-  background: rgb(243 238 238);
+  background: #E5E5E5;
   display: grid;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 7em;
+  margin-right: auto;
+  margin-left: auto;
   grid-template-columns: 1fr;
   grid-gap: 7em;
+  width: 100%;
+  min-width: 378px;
+}
+.contain-about-me{
   width: 378px;
 }
 
@@ -345,9 +351,6 @@ body {
   
 }
 
-.section-a-content-dt {
-
-}
 .middle-text-dt {
   padding-top: 6em;
   width: 100%;
@@ -624,17 +627,14 @@ main p {
   width: 70%;
   padding-left: 2.8em;
 }
-
 #section-7 {
-  display: grid;
-  width: 379px;
+  width: 100%;
+  min-width: 375px;
   height: 779px;
   background: #6070ff;
   border-top-left-radius: 70px;
-  margin: 0 auto;
 }
-
-.background {
+#section-7 .background {
   background: url("images/contact\ form\ shapes-mobile@2x.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -645,39 +645,54 @@ main p {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  max-width: 315px;
+  width: 375px;
   height: 709.17px;
-  margin-left: 2em;
-  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 #section-7 .elements .text-above h1 {
   box-sizing: border-box;
   width: 300px;
+  height: 56px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
   line-height: 52px;
+  align-items: center;
   text-align: center;
   color: #fff;
-  font-size: 40px;
-  font-weight: 700;
+  margin: 1em;
 }
 
 #section-7 .elements .text-above p {
-  width: 327px;
+  width: 350px;
   height: 102px;
-  color: #ebebff;
-  text-align: center;
+  left: 24px;
+  font-style: normal;
+  font-weight: 400;
   font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin: 1em;
 }
 
-form {
+
+#section-7 form {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  margin-left: 1.8em;
+  box-sizing: border-box;
+  width: 320px;
   list-style: none;
   height: 390px;
 }
 
-input[type="text"],
-input[type="email"] {
+#section-7 input[type="text"],
+#section-7 input[type="email"] {
   box-sizing: border-box;
   width: 100%;
   height: 40px;
@@ -688,17 +703,18 @@ input[type="email"] {
   font-size: 18px;
 }
 
-textarea {
+#section-7 textarea {
   box-sizing: border-box;
   width: 100%;
+  height: 200px;
+  padding: 0.8em 1em;
+  border: none;
+  border-radius: 6px;
   color: #b3bac5;
   font-size: 18px;
-  height: 200px;
-  border-radius: 6px;
-  border: none;
 }
 
-input[type="submit"] {
+#section-7 input[type="submit"] {
   box-sizing: border-box;
   padding: 1em 2px;
   border: none;
@@ -712,10 +728,113 @@ input[type="submit"] {
   margin-right: 16em;
 }
 
-#section-7 img {
-  margin-bottom: 0;
-  width: 170px;
+/* Style for desktop */
+#section-7-dt {
+  width: 100%;
+  min-width: 375px;
+  height: 779px;
+  background: #6070ff;
+  border-top-left-radius: 70px;
 }
+#section-7-dt .background-dt {
+  background: url("images/contact\ form\ shapes-mobile@2x.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+#section-7-dt .elements-dt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 375px;
+  height: 709.17px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#section-7-dt .elements-dt .text-above-dt h1 {
+  box-sizing: border-box;
+  width: 300px;
+  height: 56px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin: 1em;
+}
+
+#section-7-dt .elements-dt .text-above-dt p {
+  width: 350px;
+  height: 102px;
+  left: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin: 1em;
+}
+
+
+#section-7-dt form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 1.8em;
+  box-sizing: border-box;
+  width: 320px;
+  list-style: none;
+  height: 390px;
+}
+
+#section-7-dt input[type="text"],
+#section-7-dt input[type="email"] {
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding-left: 0.2em;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+#section-7-dt textarea {
+  box-sizing: border-box;
+  width: 100%;
+  height: 200px;
+  padding: 0.8em 1em;
+  border: none;
+  border-radius: 6px;
+  color: #b3bac5;
+  font-size: 18px;
+}
+
+#section-7-dt input[type="submit"] {
+  box-sizing: border-box;
+  padding: 1em 2px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  width: 50%;
+  color: #6070ff;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-right: 16em;
+}
+#section-7-dt{
+  display: none;
+}
+
+
+
 @media screen and (min-width: 768px) {
   * {
     box-sizing: border-box;
@@ -877,5 +996,47 @@ input[type="submit"] {
     order: 0;
     flex-grow: 0;
   }
+  /*Style form for Desktop*/
+  #section-7{
+    display: none;
+  }
+  
+  #section-7-dt {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background: #6070ff;
+    background-image: url("images/contact\ form\ background\ shapes@2x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  
+  
+  
+  #section-7-dt .elements-dt
+  {
+    grid-column-start: 6;
+    grid-column-end: 7; 
+  }
+  #section-7-dt .elements-dt .text-above-dt h1 {
+    width: 300px;
+    margin-left: 2em;
+  }
+
+  #section-7-dt .elements-dt .text-above-dt p {
+    width: 450px;
+    margin-right: 1em;
+  }
+
+  #section-7-dt input[type="text"],
+  #section-7-dt input[type="email"] {
+    width: 400px;
+  }
+
+  #section-7-dt textarea {
+    width: 400px;
+  }
 
 }
+
+  
