@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Portfolio Mobile.(Middle Section)
+Portfolio Desktop Version
 
-This project has a headline and some cards for my porfolio website.
+This version of my portfolio looks good on desktop and medium screens as well.
 You can navigate through the pages to get more information about me.
 
 
