@@ -537,7 +537,18 @@ main p {
   list-style: none;
   padding-left: 1.7em;
 }
-
+#section-5{
+  background: #e5e5e5;
+}
+.s5-dt{
+  display: none;
+}
+.s5{
+  background: #fff;
+  width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+}
 #section-5 .resume a {
   width: 138px;
   height: 24px;
@@ -915,78 +926,6 @@ main p {
     list-style: none;
   }
 
-  /*.s5 {
-    display: none;
-  }
-
-  .group {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    margin: auto;
-    height: 700px;
-  }
-
-  .group-1 {
-    width: 50%;
-  }
-
-  .group-1 .lc {
-    margin-bottom: 4em;
-    padding-top: 0;
-    margin-top: 0;
-    width: 180px;
-  }
-
-  .group .base-icon ul {
-    margin-bottom: 3em;
-    padding-left: 10px;
-    width: 250px;
-  }
-
-  .group .resume a {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 27px;
-    width: 200px;
-  }
-
-  .s3-container-ds .context-wrapper-ds {
-    height: 450px;
-    width: 50%;
-  }
-
-  .s3-container-ds h1 {
-    width: 200px;
-  }
-
-  .s3-container-ds .list-container ul {
-    width: 300px;
-    margin-left: 0.4em;
-  }
-
-  .s3-container-ds p {
-    width: 90%;
-    margin-left: 8px;
-  }
-
-  .s3-container-ds .base-links ul {
-    box-sizing: border-box;
-    height: 30px;
-    width: 65%;
-  }
-
-  .s3-container-ds .base-links ul li a {
-    padding: 1em;
-    width: 100%;
-  }
-
-  .s3-container-ds .base-button {
-    margin-top: 6em;
-    width: 290px;
-  }
-  */
   #section-a {
     display: none;
   }
@@ -1238,12 +1177,100 @@ main p {
     justify-content: space-between;
     padding-left: 6px;
   }
+  #section-5 .s5{
+    display: none;
+  }
+  .s5-dt{
+    display: flex;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5em;
+    height: 924px;
+    border-top-right-radius: 180px;
+  }
+  .s5-dt h2{
+    color: #091e42;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 52px; 
+    width: 170px;
+    padding:0;
+  }
+  .s5-dt .group-1{
+        display: flex;
+        flex-flow: column;
+        justify-self: flex-start;
+        width: 100%;
+  }
+  .s5-dt p{
+    width: 447px;
+    height: 102px;
+    color: #344563;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
 
-  /*Style form for Desktop*/
+  .s5-dt h4{
+    display: flex;
+    align-self: flex-start;
+    width: 117px;
+    width: 117px;
+height: 24px;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #7F8CFF;
+margin-left: 6px;
+
+
+
+  }
+  .base-icon-5-dt ul{
+    display: flex;
+    padding-left: 4px;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: -0.1em;
+  }
+  .resume{
+    display: flex;
+    align-self: flex-start;
+  }
+  .resume button{
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 24px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: #396DF2;
+      padding: 0.7em;
+      background: #fff;
+      border: 1px solid #396DF2;
+      border-radius: 8px;      ;
+}
+  
+
+ 
+  .group-2{
+    width: 100%;
+  }
+  .group-2 .tech ul{
+    display: flex;
+    gap: 1em;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+    /*Style form for Desktop*/
   #section-7 {
     display: none;
   }
-
   #section-7-dt {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -1252,9 +1279,11 @@ main p {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    height: 846px;
   }
 
   #section-7-dt .elements-dt {
+    margin-top: 4em;
     grid-column-start: 6;
     grid-column-end: 7;
   }
@@ -1275,5 +1304,10 @@ main p {
 
   #section-7-dt textarea {
     width: 400px;
+  }
+  #section-7-dt input[type="submit"]
+  {
+    margin-top: 1em;
+     margin-left: 6em;
   }
 }
