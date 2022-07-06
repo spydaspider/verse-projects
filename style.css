@@ -236,6 +236,9 @@ ul a {
   line-height: 44px;
   color: #172b4d;
 }
+.s2-container-dt{
+  display: none;
+}
 
 #section-2 .image-container2 {
   width: 340px;
@@ -258,8 +261,8 @@ ul a {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  margin-left: 1.5em;
-  margin-top: 1.2em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #section-2 h1 {
@@ -869,6 +872,9 @@ main p {
     background: white;
     border-bottom-left-radius: 100px;
   }
+  a{
+    text-decoration: none;
+  }
 
   /* Style navigation bar */
   .nav-container {
@@ -1042,6 +1048,7 @@ main p {
     margin-top: 5em;
     margin-left: auto;
     margin-right: auto;
+    background-size: contain;
   }
   #section-1 .image-container {
     width: 100%;
@@ -1057,10 +1064,12 @@ main p {
     font-size: 22px;
   }
   .content {
+    display: flex;
+    align-self: flex-start;
     height: 448px;
     width: 100%;
   }
-
+  
   #section-1 h1 {
     display: flex;
     align-self: flex-start;
@@ -1076,16 +1085,62 @@ main p {
     width: 90%;
   }
   .list-container {
-    width: 50%;
+    width: 400px;
   }
   
   #section-1 .list-container ul {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 65%;
   }
   .base-button{
     margin-top: 1em;
+  }
+
+  /* Style card two */
+  .s2-container{
+    display: none;
+  }
+  .s2-container-dt{
+    display: flex;
+    flex-flow: row-reverse;
+    box-sizing: border-box;
+    padding: 16px;
+    width: 70%;
+    gap: 1em;
+    min-height: 400px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .s2-container-dt .new-h1{
+    display: flex;
+    align-self: flex-start;
+    width: 469px;
+    font-size: 40px;
+    color: #091E42;
+    font-weight: 700;
+  }
+  .s2-container-dt p{
+    width: 90%;
+  }
+  .image-container2-dt{
+    width: 100%;
+    height: 448px;
+    background: url("images/desktop-section-2.png");
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin-left: 0;
+    margin-top: 0.5em;
+  }
+  .list-container2-dt ul{
+    display: flex;
+    width: 380px;
+    justify-content: space-between;
+    padding-left: 6px;
   }
 
   /*Style form for Desktop*/
