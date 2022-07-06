@@ -585,6 +585,26 @@ main p {
 }
 
 /* #section-5 .resume a {
+.resume {
+  margin-left: 1.1em;
+}
+
+.resume span {
+  font-size: 17px;
+  color: #5e6c84;
+  font-weight: 500;
+}
+
+.resume button:disabled,
+button[disabled] {
+  border: 1px solid #999;
+  background-color: #e5e5e5;
+  color: #666;
+  border-radius: 6px;
+  padding: 13px;
+}
+
+#section-5 .resume a {
   width: 138px;
   height: 24px;
   border: 1px solid #396df2;
@@ -730,7 +750,7 @@ button[disabled] {
   margin-right: auto;
 }
 
-#section-7 .elements .text-above h1 {
+#section-7 .elements .text-above h2 {
   box-sizing: border-box;
   width: 300px;
   height: 56px;
@@ -1431,4 +1451,20 @@ button[disabled] {
   #section-3 .s3-container-dt {
     width: 95%;
   }
+=======
+input[type="submit"]:hover {
+  background: #6070ff;
+  color: #fff;
+  border: none;
+}
+
+input[type="submit"]:active {
+  background: #2230d1;
+  color: #fff;
+  border: none;
+}
+
+#section-7 img {
+  margin-bottom: 0;
+  width: 170px;
 }
