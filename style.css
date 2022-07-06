@@ -26,7 +26,6 @@ ul a {
   border-radius: 15px;
   margin-left: auto;
   margin-right: auto;
-  background: red;
 }
 
 #works {
@@ -583,54 +582,6 @@ main p {
   border: 1px solid #396df2;
   border-radius: 8px;
 }
-
-/* #section-5 .resume a {
-.resume {
-  margin-left: 1.1em;
-}
-
-.resume span {
-  font-size: 17px;
-  color: #5e6c84;
-  font-weight: 500;
-}
-
-.resume button:disabled,
-button[disabled] {
-  border: 1px solid #999;
-  background-color: #e5e5e5;
-  color: #666;
-  border-radius: 6px;
-  padding: 13px;
-}
-
-#section-5 .resume a {
-  width: 138px;
-  height: 24px;
-  border: 1px solid #396df2;
-  border-radius: 10px;
-  padding: 0.8em;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #396df2;
-  margin-left: 1.1em;
-  text-decoration: none;
-}
-
-#section-5 .resume a:hover {
-  background: #6070ff;
-  color: #fff;
-  border: none;
-}
-
-#section-5 .resume a:active {
-  background: #2230d1;
-  color: #fff;
-  border: none;
-} */
 
 #section-5 .resume button:disabled,
 button[disabled] {
@@ -1451,20 +1402,4 @@ button[disabled] {
   #section-3 .s3-container-dt {
     width: 95%;
   }
-input[type="submit"]:hover {
-  background: #6070ff;
-  color: #fff;
-  border: none;
-}
-
-input[type="submit"]:active {
-  background: #2230d1;
-  color: #fff;
-  border: none;
-}
-
-#section-7 img {
-  margin-bottom: 0;
-  width: 170px;
-}
 }
