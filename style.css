@@ -61,6 +61,36 @@ ul a {
   letter-spacing: 0.03em;
 }
 
+
+
+.base-button:hover,
+.base-button:focus {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.base-button::after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  box-shadow: 8px 8px 0 rgba(32, 33, 37, 0.1);
+  transition: box-shadow 0.5s, transform 0.5s;
+}
+
+.base-button:hover::after,
+.base-button:focus::after {
+  box-shadow: 16px 16px 0 rgb(32 33 37 / 6%);
+}
+
+
+
+
 .base-links ul {
   display: flex;
   list-style: none;
